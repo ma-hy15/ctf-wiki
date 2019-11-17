@@ -109,7 +109,7 @@ asdfasfasdfasdfafasfasfasdfasdf
         size: 0xf
 ```
 
-只申请 `0x20` 大小的堆，但是却能输入 `0xffffffff` 长度的数据，从整型溢出到堆溢出
+只申请 `0x0f` 大小的堆，但是却能输入 `0xffffffff` 长度的数据，从整型溢出到堆溢出
 
 ### 错误的类型转换
 
